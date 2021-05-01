@@ -29,7 +29,6 @@ function watch() {
         notify: true
     });
     gulp.watch("./sass/**/*", css);
-    gulp.watch('./*.php').on('change',browserSync.reload);
 }
 
 
