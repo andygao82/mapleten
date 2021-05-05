@@ -1,5 +1,26 @@
 $color_main: #004550;
 $color_secondary: #D9E3E1;
+$color_hover: #DFE8E7;
+@font-face {
+  font-family: 'Camber-lg';
+  src: url('../fonts/Camber-Lg.ttf')  format('truetype') /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'Camber-md';
+  src: url('../fonts/Camber-Md.ttf')  format('truetype') /* Safari, Android, iOS */
+}
+@media screen and (min-width: 1500px){
+  .container{
+    min-width: 1400px;
+  }
+}
 
 @media screen and (min-width: 1700px){
+  .container{
+    min-width: 1500px;
+  }
+  .banner{
+    background-size: 630px;
+  }
 }
+

@@ -1,29 +1,19 @@
 <!doctype html>
 <html class="no-js" lang="eng">
-
 <head>
   <meta charset="utf-8">
   <title>Mapleton Kitchen</title>
   <meta name="description" content="Mapleton Kitchen">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
-
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
+  <link rel="apple-touch-icon" href="./img/favicon.png">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <link rel="stylesheet" href="css/styles.css">
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js" integrity="sha512-jGsMH83oKe9asCpkOVkBnUrDDTp8wl+adkB2D+//JtlxO4SrLoJdhbOysIFQJloQFD+C4Fl1rMsQZF76JjV0eQ==" crossorigin="anonymous"></script>
   <meta name="theme-color" content="#ffffff">
 </head>
-
 <body>
-
-  <!-- Add your site or application content here -->
   <header>
     <div class="container">
       <div class="row">
@@ -34,9 +24,9 @@
             </a>
             <nav id="menu">
               <ul>
-                <li><a href="#">Gallery</a></li>
-                <li><a href="#">Menu</a></li>
-                <li><a href="#">Contact Us</a></li>
+                <li><a href="#" id="gallery-link">Gallery</a></li>
+                <li><a href="#" id="menu-link">Menu</a></li>
+                <li><a href="#" id="contact-link">Contact Us</a></li>
               </ul>
             </nav>
             <a href="#" id="menuicon">
@@ -48,22 +38,25 @@
       </div>
     </div>
   </header>
-
-
   <main>
     <div class="banner">
       <div class="container">
         <div class="row">
           <div class="col-12">
             <div class="wrapper">
-              <h1 class="banner-text">Welcome to Mapleton Kitchen</h1>
+                <h1 class="banner-text">Welcome to <span>Mapleton Kitchen</span></h1>
               <div class="banner-image">
                 <img src="./img/slide-img.png" alt="Mapleton Kitchen" title="Mapleton Kitchen">
               </div>
               <div class="menu">
                 <ul>
                   <li>- Padre Coffee</li>
+                  <li>- Brunch</li>
+                  <li>- Takeaway Meals</li>
+                  <li>- Breakfast</li>
                   <li>- Lunch</li>
+                  <li>- Gluten Free</li>
+                  <li>- Pastries & Cakes</li>
                 </ul>
               </div>
             </div>
@@ -71,11 +64,77 @@
         </div>
       </div>
     </div>
+    <div class="gallery">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="wrapper">
+                <h2>GALLERY</h2>
+              <ul>
+                <li><img src="./img/image1.png" alt="Mapleton Kitchen"></li>
+                <li><img src="./img/image2.png" alt="Mapleton Kitchen"></li>
+                <li><img src="./img/image3.png" alt="Mapleton Kitchen"></li>
+                <li><img src="./img/image4.png" alt="Mapleton Kitchen"></li>
+                <li><img src="./img/image5.png" alt="Mapleton Kitchen"></li>
+                <li><img src="./img/image6.png" alt="Mapleton Kitchen"></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </main>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="wrapper">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3148.967292866623!2d145.00111011532078!3d-37.88444757973966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad668ffb26aa8df%3A0xdc32e43ba1be052e!2s345%20Glen%20Huntly%20Rd%2C%20Elsternwick%20VIC%203185!5e0!3m2!1sen!2sau!4v1619912918029!5m2!1sen!2sau" width="100%" height="580" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="wrapper">
+            <a href="javascript:;" id="footer-logo"><img src="./img/second-logo.svg" alt="Mapleton Kitchen"></a>
+            <div class="info">
+              <h3>Email:</h3>
+              <a href="mailto:info@mapletonkitchen.com.au">info@mapletonkitchen.com.au</a>
+              <h3>Phone:</h3>
+              <a href="tel:0390786320">(03) 9078 6320</a>
+              <h3>Address:</h3>
+              <span>345 Glen Huntly Rd, Elsternwick VIC 3185</span>
+              <h2>OPENING HOURS</h2>
+              <span>Monday - Friday / 7am - 4pm</span>
+              <span>Saturday - Sunday / 8am - 4pm</span>
+              <span>Public Holiday / 8am - 4pm</span>
+                <div class="social-media">
+                    <ul>
+                        <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <div class="wrapper">
+              <span>&copy; 2021 Mapleton Kitchen All Rights Reserved</span>
+              <a href="http://ddcreative.com.au/" id="dd" target="_blank">Website by D&D Creative</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
-
 </body>
-
 </html>
