@@ -7,22 +7,27 @@ header{
   }
 }
 #menuicon{
-  width: 31px;
-  height: 31px;
+  width: 40px;
+  height: 30px;
   position: absolute;
   top: 0;
   right: 0;
-  background-color: $color_secondary;
   transition: all .5s ease-in-out;
   z-index: 99;
+
   &.active{
     background-color: $color_main;
     span:first-child{
+      top: 15px;
       transform: rotate(45deg);
     }
+    span:nth-child(2){
+      display: none;
+    }
     span:last-child{
-      transform: rotate(-45deg);
+      top: 15px;
       bottom: 0;
+      transform: rotate(-45deg);
     }
   }
   span{
@@ -35,6 +40,15 @@ header{
     background-color: $color_secondary;
     left: 0;
     transition: all .25s ease-in-out;
+    &:first-child{
+      top: 0;
+    }
+    &:nth-child(2){
+      top: 15px;
+    }
+    &:last-child{
+      top: 100%;
+    }
   }
 }
 
